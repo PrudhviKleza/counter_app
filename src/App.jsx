@@ -8,7 +8,6 @@ function App() {
   const [count, setCount] = useState(0)
 
   const increment =()=>{
-    alert(`count is ${count}`)
     setCount(count+1);
   }
   return (
