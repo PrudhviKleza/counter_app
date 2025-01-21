@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+Modal.setAppElement("#root");
 function App() {
   const [count, setCount] = useState(0)
 
@@ -41,7 +42,7 @@ function App() {
         >
           Close
         </button>
-      </div>
+      </Modal>
       
     </>
   )
