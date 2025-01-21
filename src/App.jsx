@@ -25,7 +25,7 @@ function App() {
         onRequestClose={() => setIsModalOpen(false)}
         style={{
           content: {
-            width: "300px",
+            width: "200px",
             margin: "auto",
             padding: "20px",
             borderRadius: "10px",
