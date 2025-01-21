@@ -36,7 +36,7 @@ function App() {
         <h1 style={{ color:'black'}}>count value is{count}</h1>
         <button
           style={{
-            backgroundColor: "#dc3545",
+            backgroundColor: "white",
             color: "red",
           }}
           onClick={() => setIsModalOpen(false)}
