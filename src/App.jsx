@@ -14,31 +14,8 @@ function App() {
       
       <h1>count is {count}</h1>
       <div className="card">
-        <button onClick={increment}>increment</button>
-      </div>
-      <button onClick={()=>setIsModalOpen(true)}>open modal</button>
-      <Modal
-        isOpen={isModalOpen}
-        onRequestClose={() => setIsModalOpen(false)}
-        style={{
-          content: {
-            width: "300px",
-            margin: "auto",
-            padding: "20px",
-            borderRadius: "10px",
-            textAlign: "center",
-          },
-        }}
-      >
-        <h1 style={{ color:'black'}}>count value is{count}</h1>
-        <button
-          style={{
-            backgroundColor: "#dc3545",
-            color: "red",
-          }}
-          onClick={() => setIsModalOpen(false)}
-        >
-          Close
+        <button onClick={increment}>
+          increment
         </button>
       </div>
       
