@@ -21,6 +21,7 @@ function App() {
       </div>
       <button onClick={()=>setIsModalOpen(true)}>open modal</button>
       <h1>implementing A</h1>
+      <h1>implementing B</h1>
       <Modal
         isOpen={isModalOpen}
         onRequestClose={() => setIsModalOpen(false)}
