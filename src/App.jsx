@@ -9,9 +9,13 @@ function App() {
   const [count, setCount] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const increment =()=>{
-    setCount(count+1);
-  }
+
+
+  const increment = () => {
+    alert(`count is ${count}`);
+    setCount(count + 1);
+  };
+
   return (
     <>
       <h1>count is {count}</h1>
