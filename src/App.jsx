@@ -6,7 +6,8 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  const[isModalOpen,setIsModalOpen] = useState(false);
 
   const increment =()=>{
     setCount(count+1);
