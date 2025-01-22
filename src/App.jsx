@@ -6,7 +6,8 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  const[isModalOpen,setIsModalOpen] = useState(false);
 
   const increment =()=>{
     setCount(count+1);
@@ -19,6 +20,9 @@ function App() {
         <button onClick={increment}>increment</button>
       </div>
       <button onClick={()=>setIsModalOpen(true)}>open modal</button>
+      <h1>implementing A</h1>
+      <h1>implementing B</h1>
+      <h1>implementing C</h1>
       <Modal
         isOpen={isModalOpen}
         onRequestClose={() => setIsModalOpen(false)}
